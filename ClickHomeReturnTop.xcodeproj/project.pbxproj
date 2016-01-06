@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAFEFA7B1C3CAD91004E8292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEFA7A1C3CAD91004E8292 /* main.m */; };
+		AAFEFA7E1C3CAD91004E8292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEFA7D1C3CAD91004E8292 /* AppDelegate.m */; };
+		AAFEFA811C3CAD91004E8292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEFA801C3CAD91004E8292 /* ViewController.m */; };
+		AAFEFA841C3CAD91004E8292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFEFA821C3CAD91004E8292 /* Main.storyboard */; };
+		AAFEFA861C3CAD91004E8292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFEFA851C3CAD91004E8292 /* Assets.xcassets */; };
+		AAFEFA891C3CAD91004E8292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFEFA871C3CAD91004E8292 /* LaunchScreen.storyboard */; };
+		AAFEFA941C3CAD92004E8292 /* ClickHomeReturnTopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEFA931C3CAD92004E8292 /* ClickHomeReturnTopTests.m */; };
+		AAFEFA9F1C3CAD92004E8292 /* ClickHomeReturnTopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEFA9E1C3CAD92004E8292 /* ClickHomeReturnTopUITests.m */; };
+		AAFEFAAE1C3CAEF5004E8292 /* TCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEFAAD1C3CAEF5004E8292 /* TCTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAFEFA901C3CAD92004E8292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFEFA6E1C3CAD91004E8292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFEFA751C3CAD91004E8292;
+			remoteInfo = ClickHomeReturnTop;
+		};
+		AAFEFA9B1C3CAD92004E8292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFEFA6E1C3CAD91004E8292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFEFA751C3CAD91004E8292;
+			remoteInfo = ClickHomeReturnTop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAFEFA761C3CAD91004E8292 /* ClickHomeReturnTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickHomeReturnTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFEFA7A1C3CAD91004E8292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAFEFA7C1C3CAD91004E8292 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAFEFA7D1C3CAD91004E8292 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAFEFA7F1C3CAD91004E8292 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAFEFA801C3CAD91004E8292 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAFEFA831C3CAD91004E8292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAFEFA851C3CAD91004E8292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFEFA881C3CAD91004E8292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAFEFA8A1C3CAD91004E8292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFEFA8F1C3CAD92004E8292 /* ClickHomeReturnTopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickHomeReturnTopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFEFA931C3CAD92004E8292 /* ClickHomeReturnTopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickHomeReturnTopTests.m; sourceTree = "<group>"; };
+		AAFEFA951C3CAD92004E8292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFEFA9A1C3CAD92004E8292 /* ClickHomeReturnTopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickHomeReturnTopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFEFA9E1C3CAD92004E8292 /* ClickHomeReturnTopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickHomeReturnTopUITests.m; sourceTree = "<group>"; };
+		AAFEFAA01C3CAD92004E8292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFEFAAC1C3CAEF5004E8292 /* TCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTabBarController.h; sourceTree = "<group>"; };
+		AAFEFAAD1C3CAEF5004E8292 /* TCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFEFA731C3CAD91004E8292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFEFA8C1C3CAD92004E8292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFEFA971C3CAD92004E8292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFEFA6D1C3CAD91004E8292 = {
+			isa = PBXGroup;
+			children = (
+				AAFEFA781C3CAD91004E8292 /* ClickHomeReturnTop */,
+				AAFEFA921C3CAD92004E8292 /* ClickHomeReturnTopTests */,
+				AAFEFA9D1C3CAD92004E8292 /* ClickHomeReturnTopUITests */,
+				AAFEFA771C3CAD91004E8292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFEFA771C3CAD91004E8292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFEFA761C3CAD91004E8292 /* ClickHomeReturnTop.app */,
+				AAFEFA8F1C3CAD92004E8292 /* ClickHomeReturnTopTests.xctest */,
+				AAFEFA9A1C3CAD92004E8292 /* ClickHomeReturnTopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFEFA781C3CAD91004E8292 /* ClickHomeReturnTop */ = {
+			isa = PBXGroup;
+			children = (
+				AAFEFAAC1C3CAEF5004E8292 /* TCTabBarController.h */,
+				AAFEFAAD1C3CAEF5004E8292 /* TCTabBarController.m */,
+				AAFEFA7C1C3CAD91004E8292 /* AppDelegate.h */,
+				AAFEFA7D1C3CAD91004E8292 /* AppDelegate.m */,
+				AAFEFA7F1C3CAD91004E8292 /* ViewController.h */,
+				AAFEFA801C3CAD91004E8292 /* ViewController.m */,
+				AAFEFA821C3CAD91004E8292 /* Main.storyboard */,
+				AAFEFA851C3CAD91004E8292 /* Assets.xcassets */,
+				AAFEFA871C3CAD91004E8292 /* LaunchScreen.storyboard */,
+				AAFEFA8A1C3CAD91004E8292 /* Info.plist */,
+				AAFEFA791C3CAD91004E8292 /* Supporting Files */,
+			);
+			path = ClickHomeReturnTop;
+			sourceTree = "<group>";
+		};
+		AAFEFA791C3CAD91004E8292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAFEFA7A1C3CAD91004E8292 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAFEFA921C3CAD92004E8292 /* ClickHomeReturnTopTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFEFA931C3CAD92004E8292 /* ClickHomeReturnTopTests.m */,
+				AAFEFA951C3CAD92004E8292 /* Info.plist */,
+			);
+			path = ClickHomeReturnTopTests;
+			sourceTree = "<group>";
+		};
+		AAFEFA9D1C3CAD92004E8292 /* ClickHomeReturnTopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFEFA9E1C3CAD92004E8292 /* ClickHomeReturnTopUITests.m */,
+				AAFEFAA01C3CAD92004E8292 /* Info.plist */,
+			);
+			path = ClickHomeReturnTopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFEFA751C3CAD91004E8292 /* ClickHomeReturnTop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFEFAA31C3CAD92004E8292 /* Build configuration list for PBXNativeTarget "ClickHomeReturnTop" */;
+			buildPhases = (
+				AAFEFA721C3CAD91004E8292 /* Sources */,
+				AAFEFA731C3CAD91004E8292 /* Frameworks */,
+				AAFEFA741C3CAD91004E8292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickHomeReturnTop;
+			productName = ClickHomeReturnTop;
+			productReference = AAFEFA761C3CAD91004E8292 /* ClickHomeReturnTop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAFEFA8E1C3CAD92004E8292 /* ClickHomeReturnTopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFEFAA61C3CAD92004E8292 /* Build configuration list for PBXNativeTarget "ClickHomeReturnTopTests" */;
+			buildPhases = (
+				AAFEFA8B1C3CAD92004E8292 /* Sources */,
+				AAFEFA8C1C3CAD92004E8292 /* Frameworks */,
+				AAFEFA8D1C3CAD92004E8292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFEFA911C3CAD92004E8292 /* PBXTargetDependency */,
+			);
+			name = ClickHomeReturnTopTests;
+			productName = ClickHomeReturnTopTests;
+			productReference = AAFEFA8F1C3CAD92004E8292 /* ClickHomeReturnTopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAFEFA991C3CAD92004E8292 /* ClickHomeReturnTopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFEFAA91C3CAD92004E8292 /* Build configuration list for PBXNativeTarget "ClickHomeReturnTopUITests" */;
+			buildPhases = (
+				AAFEFA961C3CAD92004E8292 /* Sources */,
+				AAFEFA971C3CAD92004E8292 /* Frameworks */,
+				AAFEFA981C3CAD92004E8292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFEFA9C1C3CAD92004E8292 /* PBXTargetDependency */,
+			);
+			name = ClickHomeReturnTopUITests;
+			productName = ClickHomeReturnTopUITests;
+			productReference = AAFEFA9A1C3CAD92004E8292 /* ClickHomeReturnTopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFEFA6E1C3CAD91004E8292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tangjp;
+				TargetAttributes = {
+					AAFEFA751C3CAD91004E8292 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					AAFEFA8E1C3CAD92004E8292 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AAFEFA751C3CAD91004E8292;
+					};
+					AAFEFA991C3CAD92004E8292 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AAFEFA751C3CAD91004E8292;
+					};
+				};
+			};
+			buildConfigurationList = AAFEFA711C3CAD91004E8292 /* Build configuration list for PBXProject "ClickHomeReturnTop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFEFA6D1C3CAD91004E8292;
+			productRefGroup = AAFEFA771C3CAD91004E8292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFEFA751C3CAD91004E8292 /* ClickHomeReturnTop */,
+				AAFEFA8E1C3CAD92004E8292 /* ClickHomeReturnTopTests */,
+				AAFEFA991C3CAD92004E8292 /* ClickHomeReturnTopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFEFA741C3CAD91004E8292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFEFA891C3CAD91004E8292 /* LaunchScreen.storyboard in Resources */,
+				AAFEFA861C3CAD91004E8292 /* Assets.xcassets in Resources */,
+				AAFEFA841C3CAD91004E8292 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFEFA8D1C3CAD92004E8292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFEFA981C3CAD92004E8292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFEFA721C3CAD91004E8292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFEFA811C3CAD91004E8292 /* ViewController.m in Sources */,
+				AAFEFA7E1C3CAD91004E8292 /* AppDelegate.m in Sources */,
+				AAFEFAAE1C3CAEF5004E8292 /* TCTabBarController.m in Sources */,
+				AAFEFA7B1C3CAD91004E8292 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFEFA8B1C3CAD92004E8292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFEFA941C3CAD92004E8292 /* ClickHomeReturnTopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFEFA961C3CAD92004E8292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFEFA9F1C3CAD92004E8292 /* ClickHomeReturnTopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAFEFA911C3CAD92004E8292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFEFA751C3CAD91004E8292 /* ClickHomeReturnTop */;
+			targetProxy = AAFEFA901C3CAD92004E8292 /* PBXContainerItemProxy */;
+		};
+		AAFEFA9C1C3CAD92004E8292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFEFA751C3CAD91004E8292 /* ClickHomeReturnTop */;
+			targetProxy = AAFEFA9B1C3CAD92004E8292 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAFEFA821C3CAD91004E8292 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFEFA831C3CAD91004E8292 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAFEFA871C3CAD91004E8292 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFEFA881C3CAD91004E8292 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAFEFAA11C3CAD92004E8292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAFEFAA21C3CAD92004E8292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFEFAA41C3CAD92004E8292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClickHomeReturnTop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JP.ClickHomeReturnTop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAFEFAA51C3CAD92004E8292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClickHomeReturnTop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JP.ClickHomeReturnTop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAFEFAA71C3CAD92004E8292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClickHomeReturnTopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JP.ClickHomeReturnTopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickHomeReturnTop.app/ClickHomeReturnTop";
+			};
+			name = Debug;
+		};
+		AAFEFAA81C3CAD92004E8292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClickHomeReturnTopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JP.ClickHomeReturnTopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickHomeReturnTop.app/ClickHomeReturnTop";
+			};
+			name = Release;
+		};
+		AAFEFAAA1C3CAD92004E8292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClickHomeReturnTopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JP.ClickHomeReturnTopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClickHomeReturnTop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AAFEFAAB1C3CAD92004E8292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClickHomeReturnTopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JP.ClickHomeReturnTopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClickHomeReturnTop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFEFA711C3CAD91004E8292 /* Build configuration list for PBXProject "ClickHomeReturnTop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFEFAA11C3CAD92004E8292 /* Debug */,
+				AAFEFAA21C3CAD92004E8292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFEFAA31C3CAD92004E8292 /* Build configuration list for PBXNativeTarget "ClickHomeReturnTop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFEFAA41C3CAD92004E8292 /* Debug */,
+				AAFEFAA51C3CAD92004E8292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAFEFAA61C3CAD92004E8292 /* Build configuration list for PBXNativeTarget "ClickHomeReturnTopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFEFAA71C3CAD92004E8292 /* Debug */,
+				AAFEFAA81C3CAD92004E8292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAFEFAA91C3CAD92004E8292 /* Build configuration list for PBXNativeTarget "ClickHomeReturnTopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFEFAAA1C3CAD92004E8292 /* Debug */,
+				AAFEFAAB1C3CAD92004E8292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAFEFA6E1C3CAD91004E8292 /* Project object */;
+}
